@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
                                 +  desc + "</body>]]>"));
 
 */
-                Log.d("TAG","Complete data - "+desc);
+                Log.d("TAG","Complete data - "+document.text());
                 Log.d(TAG,"Return doInBackground()");
                // return downloadDataByUrl(strings[0]);
             }catch (Exception e){
